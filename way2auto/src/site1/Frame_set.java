@@ -20,6 +20,8 @@ public class Frame_set
   d.navigate().to("http://www.way2automation.com/");
   d.manage().window().maximize();
   
+  //Explicit Wait
+  
   WebDriverWait wait = new WebDriverWait(d, 80);
   wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[@href='mailto:trainer@way2automation.com'])[1]")));
   
