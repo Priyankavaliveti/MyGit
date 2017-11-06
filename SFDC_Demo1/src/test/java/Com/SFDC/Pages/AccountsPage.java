@@ -77,7 +77,6 @@ public class AccountsPage extends Utility
        }
        
        
-       
        /*Boolean accountcheck=driver.findElement(By.xpath(heading)).isDisplayed();
        
        System.out.println(accountcheck);*/
