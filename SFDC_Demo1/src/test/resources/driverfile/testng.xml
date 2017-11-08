@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestNG Suite">
+ <test name="SFDC Test">
+  <parameter name="browser" value="ie"/>
+  <parameter name="url" value="https://login.salesforce.com"/>
+  <parameter name="username" value="chaithanya.kuncham@gmail.com"/>
+  <parameter name="password" value="selenium1"/>
+  <classes>
+ <class name="Com.SFDC.TestCases.ValidateSFDCLogin"/>
+  </classes>
+  </test>
+</suite>
